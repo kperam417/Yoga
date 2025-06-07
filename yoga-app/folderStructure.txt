@@ -1,0 +1,43 @@
+src/
+│
+├── assets/             # Static assets like images, fonts, etc.
+│   └── logo.svg
+│
+├── components/         # Reusable UI components (buttons, inputs, etc.)
+│   └── Button/
+│       ├── Button.tsx
+│       └── Button.module.css
+│
+├── features/           # Feature-specific components, hooks, logic
+│   └── auth/
+│       ├── components/     # Feature UI components
+│       ├── hooks/          # Feature-specific hooks
+│       ├── services/       # API calls related to auth
+│       └── AuthPage.tsx
+│
+├── hooks/              # Global reusable hooks
+│   └── useWindowSize.ts
+│
+├── pages/              # Route-level components (if not using Next.js)
+│   └── Home.tsx
+│   └── About.tsx
+│
+├── routes/             # App routing configuration
+│   └── AppRoutes.tsx
+│
+├── services/           # API logic (e.g., Axios configs, API clients)
+│   └── apiClient.ts
+│
+├── store/              # Global state (Redux, Zustand, etc.)
+│   ├── index.ts
+│   └── authSlice.ts
+│
+├── types/              # Global TypeScript types and interfaces
+│   └── index.d.ts
+│
+├── utils/              # Utility functions/helpers
+│   └── formatDate.ts
+│
+├── App.tsx             # Main app component
+├── main.tsx            # App entry point
+└── vite-env.d.ts       # Vite TypeScript environment

@@ -1,0 +1,13 @@
+yoga-backend/
+├── src/
+│   ├── config/       # Database and other configurations
+│   ├── controllers/  # Route controllers
+│   ├── interfaces/   # TypeScript interfaces
+│   ├── middlewares/  # Custom middlewares
+│   ├── models/       # Database models
+│   ├── routes/       # API routes
+│   ├── services/     # Business logic
+│   ├── utils/        # Utility functions
+│   └── app.ts        # Main application file
+├── package.json
+└── tsconfig.json
