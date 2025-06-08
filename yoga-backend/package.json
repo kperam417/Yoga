@@ -2,7 +2,6 @@
   "name": "yoga-backend",
   "version": "1.0.0",
   "main": "dist/app.js",
-
   "scripts": {
     "build": "tsc",
     "start": "node dist/app.js",
@@ -21,7 +20,8 @@
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.15.1",
-    "multer": "^2.0.1"
+    "multer": "^2.0.1",
+    "zod": "^3.25.56"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",

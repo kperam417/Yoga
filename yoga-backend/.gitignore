@@ -1,0 +1,9 @@
+/node_modules
+
+
+ssh-keygen -t ed25519 -C "dev.kperam@gmail.com"
+
+ssh-keygen -t ed25519 -C "peram.reddy@axiatadigitallabs.com"
+
+git config user.name "kperam417"
+git config user.email "dev.kperam@gmail.com"

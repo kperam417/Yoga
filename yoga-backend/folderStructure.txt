@@ -11,3 +11,7 @@ yoga-backend/
 │   └── app.ts        # Main application file
 ├── package.json
 └── tsconfig.json
+
+mongodb+srv://kama:<Sravani2022@2101>@yoga.vj5w6nh.mongodb.net/?retryWrites=true&w=majority&appName=Yoga
+
+mongodb+srv://kama:Sravani2022@2101@yoga.vj5w6nh.mongodb.net/
